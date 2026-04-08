@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이건휘's Portfolio</title>
+    <meta name="description" content="이건휘의 포트폴리오 사이트입니다. 프로젝트 및 자격증 정보.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">이건휘's Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" id="about">
+        <div class="hero-content fade-in">
+            <h1 class="hero-title">HELLO,</h1>
+            <h1 class="hero-title">I'M 이건휘</h1>
+            <p class="subtitle">Creative Developer & Tech Enthusiast</p>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="projects" class="section projects-section">
+            <div class="container section-header reveal">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-line"></div>
+            </div>
+            
+            <div class="container projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card reveal">
+                    <div class="project-content">
+                        <span class="project-number">01</span>
+                        <h3 class="project-title">도서 최저가 및 구독 서비스 확인 사이트</h3>
+                        <p class="project-desc">다양한 도서 판매 플랫폼의 가격을 한눈에 비교하고, 밀리의 서재, 예스24 북클럽 등 구독 서비스 포함 여부를 직관적으로 확인할 수 있는 웹 서비스입니다.</p>
+                        <div class="project-tags">
+                            <span class="tag">Web</span>
+                            <span class="tag">Crawling</span>
+                            <span class="tag">API</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card reveal">
+                    <div class="project-content">
+                        <span class="project-number">02</span>
+                        <h3 class="project-title">AI 음성인식 키오스크 시스템</h3>
+                        <p class="project-desc">매장 주문 효율성을 높이기 위해 사용자의 음성을 인식하여 주문을 자동 처리하는 지능형 키오스크 애플리케이션입니다.</p>
+                        <div class="project-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">Speech Recognition</span>
+                            <span class="tag">System</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="certifications" class="section cert-section text-inverse">
+            <div class="container section-header reveal">
+                <h2 class="section-title">Certifications</h2>
+                <div class="title-line"></div>
+            </div>
+            
+            <div class="container cert-flex">
+                <div class="cert-card reveal">
+                    <div class="cert-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15l8.38-4.38a2 2 0 0 0 1.14-1.76V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v2.86a2 2 0 0 0 1.14 1.76L12 15z"></path><path d="M12 15v8"></path><path d="M6 18h12"></path></svg>
+                    </div>
+                    <h3>프로그래밍 기능사</h3>
+                    <p class="cert-desc">소프트웨어 개발 및 프로그래밍 기초 역량 증명</p>
+                </div>
+                
+                <div class="cert-card reveal" style="transition-delay: 0.2s;">
+                    <div class="cert-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <h3>정보처리산업기사</h3>
+                    <p class="cert-desc">정보시스템 분석, 설계 및 데이터베이스 활용 전문성</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>이건휘's Portfolio</h2>
+                <p>Bringing Ideas to Reality.</p>
+            </div>
+            <div class="footer-contact">
+                <p>Email : <a href="mailto:geonhwii316@icloud.com">geonhwii316@icloud.com</a></p>
+                <p>Phone : 010-8121-4046</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 이건휘. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
